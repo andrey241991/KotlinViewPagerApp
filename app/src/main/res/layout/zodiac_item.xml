@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="80dp"
+        android:layout_height="130dp">
+
+    <TextView
+            android:id="@+id/text_view"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            tools:text="Овен"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+    <ImageView
+            android:id="@+id/image_view"
+            android:src="@drawable/oven"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+</LinearLayout>
